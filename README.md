@@ -6,7 +6,6 @@ Based on material in:
 - https://dsi-cores.github.io/OpenByDesign/01-research-practices-%28practical%29/02-reproducible-data-analysis.html
 - https://textbook.nipraxis.org/intro.html
 
-
 ## Prerequisites:
 
 - Basic Python programming skills (including numpy)
@@ -14,6 +13,7 @@ Based on material in:
 - Basic understanding of neuroimaging data
 - Personal computer with the following installed:
   - [NiPraxis stack](https://textbook.nipraxis.org/installation.html)
+  - https://school2020.brainhackmtl.org/setup/
   - [Visual Studio Code](https://code.visualstudio.com/)
 
 
