@@ -11,10 +11,7 @@ Based on material in:
 - Basic Python programming skills (including numpy)
 - Basic understanding of git and GitHub
 - Basic understanding of neuroimaging data
-- Personal computer with the following installed:
-  - [NiPraxis stack](https://textbook.nipraxis.org/installation.html)
-  - https://school2020.brainhackmtl.org/setup/
-  - [Visual Studio Code](https://code.visualstudio.com/)
+- Personal computer set up according to the [setup instructions](setup/index.md)
 
 
 ## Schedule:
