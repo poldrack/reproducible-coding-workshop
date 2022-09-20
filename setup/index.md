@@ -1,8 +1,3 @@
-+++
-title = "Setup"
-type = "setup"
-+++
-
 ## General computing requirements
 
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
@@ -11,7 +6,7 @@ There are a few computing requirements for the course that are absolutely necess
 1. You must have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
 1. If you are using Windows you must be using Windows 10; Windows 7 and 8 will not be sufficient for this course.
 
-If you foresee any of these being a problem please reach out to the instructor for what steps you can take to ensure you are ready for the course on DATE TBD.
+If you foresee any of these being a problem please reach out to the instructor for what steps you can take to ensure you are ready for the course.
 
 ## Required software
 
@@ -40,17 +35,12 @@ The rest of this page provides more detail on installation procedures for each o
 
 ### OS-specific installation instructions
 
-Select the tab that corresponds to your operating system and follow the instructions therein.
+Select the page that corresponds to your operating system and follow the instructions therein.
 
-**Note**: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the BHS Slack with the exact problems you're having.
-One of the instructors will try and get back to you quickly to help resolve the situation.
-If they're unable to help via Slack, you may be directed to attend one of the installation office hours during the week of 4-8 May.
-
-{{< tabs tabTotal="3" tabID="setup" tabName1="Windows" tabName2="Mac OS" tabName3="Linux" >}}
-{{< tab tabNum="1" >}} {{% content "windows.md" %}} {{< /tab >}}
-{{< tab tabNum="2" >}} {{% content "mac.md" %}} {{< /tab >}}
-{{< tab tabNum="3" >}} {{% content "linux.md" %}} {{< /tab >}}
-{{< /tabs >}}
+- [Windows](windows.md)
+- [Mac](mac.md)
+- [Linux](linux.md)
+  
 
 ### GitHub account
 
