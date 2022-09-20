@@ -1,24 +1,11 @@
-### Bash shell
-
-You already have it!
-Depending on which version of Mac OS you’re running you may need to type `bash` inside the terminal to access it.
-To check whether this is necessary, follow these steps:
-
-1. Open a terminal and type `echo $SHELL`.
-   If it reads `/bin/bash` then you are all set!
-
-Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT.
-To set the default to bash, type `chsh -s /bin/bash` in the terminal, enter your password when prompted, and then close + re-open the terminal.
-
 ### Git
 
 You may already have it!
 Try opening a terminal and typing `git --version`.
 If you do not see something like “git version X.XX.X” printed out, then follow these steps: 
 
-1. Follow [this link](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect) to automatically download an installer.
-1. Double click the downloaded file (`git-2.23.0-intel-universal-mavericks.dmg`) and then double click the `git-2.23.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
-1. Follow the on-screen instructions to install the package.
+1. Install the [Homebrew package manager](https://brew.sh/) using the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2. Install git using the following command: `brew install git`
 
 ### VSCode
 
@@ -76,4 +63,4 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 ```
 
 
-Adapted from https://github.com/brainhackorg/school/blob/master/content/en/setup/mac.md under MIT license
+Adapted from [Brainhack](https://github.com/brainhackorg/school/blob/master/content/en/setup/mac.md) under MIT license

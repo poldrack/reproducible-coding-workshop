@@ -27,10 +27,6 @@ If you have questions during the installation procedure those resources may have
 
 From this point on whenever the instructions specify to "open a terminal" please assume you are supposed to open the Ubuntu application.
 
-### Bash shell
-
-You already have it, now that you’ve installed the WSL!
-
 ### Git
 
 You already have it, now that you’ve installed the WSL!
@@ -92,4 +88,4 @@ conda config --set channel_priority strict
 conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn pytest
 ```
 
-Adapted from https://github.com/brainhackorg/school/blob/master/content/en/setup/windows.md under MIT license.
+Adapted from [Brainhack](https://github.com/brainhackorg/school/blob/master/content/en/setup/windows.md) under MIT license.

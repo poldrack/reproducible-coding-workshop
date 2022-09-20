@@ -12,7 +12,7 @@ If you foresee any of these being a problem please reach out to the instructor f
 
 To get the most out of our course, we ask that you arrive with the following software already installed:
 
-- A command-line shell: Bash
+- A command-line shell: bash or zsh
 - A version control system: Git
 - A remote-capable text editor: VSCode
 - Python 3 via Miniconda
@@ -50,7 +50,7 @@ It is a good idea to associate this with your university e-mail (if you have one
 ### Slack
 
 Go to https://slack.com/downloads/ and download and install Slack.
-You will be invited to the BrainHack School Slack channel via the e-mail with which you registered for the course.
+You will be invited to the course Slack channel via email.
 
 ### Modern web browser
 
@@ -64,11 +64,11 @@ Now that you've installed everything it's time to check that everything works as
 Type the following into your terminal:
 
 ``` bash
-bash <( curl -s https://neurodatasci-course-2020.netlify.app/resources/nds_check_install.sh )
+bash <( curl -s https://raw.githubusercontent.com/poldrack/reproducible-coding-workshop/main/setup/check_setup.sh )
 ```
 
 If you installed everything correctly you should see a message informing you as such.
 If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it.
 If you followed these instructions step-by-step and cannot resolve the issue please contact one of the course instructors for more help.
 
-Adapted from https://github.com/brainhackorg/school/blob/master/content/en/setup/index.md under MIT license.
+Adapted from [Brainhack](https://github.com/brainhackorg/school/blob/master/content/en/setup/index.md) under MIT license.

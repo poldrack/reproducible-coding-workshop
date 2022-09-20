@@ -1,12 +1,3 @@
-### Bash shell
-
-You already have it!
-Depending on which version of Linux you’re running you may need to type `bash` inside the terminal to access it.
-To check whether this is necessary, follow these steps:
-
-1. Open a terminal and type `echo $SHELL`.
-   If it reads `/bin/bash` then you are all set!
-   If not, whenever the instructions read "open a terminal," please assume you are to open a terminal, type `bash`, and the proceed with the instructions as specified.
 
 ### Git
 
@@ -67,4 +58,4 @@ conda config --set channel_priority strict
 conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn pytest
 ```
 
-Adapted from https://github.com/brainhackorg/school/blob/master/content/en/setup/linux.md under an MIT License.
+Adapted from [Brainhack](https://github.com/brainhackorg/school/blob/master/content/en/setup/linux.md) under an MIT License.
