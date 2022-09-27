@@ -60,7 +60,7 @@ Open a terminal and type the following commands:
 conda config --append channels conda-forge
 conda config --set channel_priority strict
 conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn pytest boto3 statsmodels
-pip install factor_analyzer sdv
+pip install factor_analyzer sdv jupytext
 ```
 
 
