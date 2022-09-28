@@ -26,6 +26,8 @@ Based on material in:
 ### Hour 2: 
 
 - working with neuroimaging data
+  - using jupytext
+  - linting with flake8
   - pair programming exercise
 
 
