@@ -20,7 +20,12 @@ Based on material in:
 ### Hour 1:
 
 - overview of clean coding practices in Python
-- group code review exercise
+- group code review exercise:
+  - With your group, spend 10 minutes going over [this anti-example code](https://github.com/poldrack/clean_coding/blob/master/python_example/example1.py), with the following questions in mind:
+    - What are the different parts of the code doing?
+    - What code smells do you sense?
+    - How might you refactor it to address these?
+  - Appoint a group spokesperson who can report back if called upon
 
 
 ### Hour 2: 
@@ -28,6 +33,7 @@ Based on material in:
 - [Working with neuroimaging data](notebooks/WorkingWithNeuroimagingData.ipynb)
   - using jupytext
   - linting with flake8
+  - autoformatting with blue
 
 
 ### Hour 3: 
