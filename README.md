@@ -25,24 +25,20 @@ Based on material in:
 
 ### Hour 2: 
 
-- working with neuroimaging data
+- [Working with neuroimaging data](notebooks/WorkingWithNeuroimagingData.ipynb)
   - using jupytext
   - linting with flake8
-  - pair programming exercise
 
 
 ### Hour 3: 
 
-- software testing with PyTest
-    - https://github.com/poldrack/pytest_tutorial
-- Test-driven development exercise
+- [Tutorial: software testing with PyTest](https://github.com/poldrack/pytest_tutorial)
 
 
 ### Hour 4:
 
-- Validating data analysis workflows
-  - Creating synthetic data
-  - Positive and negative controls
+- [Validating data analysis workflows](notebooks/AnalyticValidation.ipynb)
+
 
 
   
