@@ -20,29 +20,31 @@ Based on material in:
 ### Hour 1:
 
 - overview of clean coding practices in Python
-- group code review exercise
+- group code review exercise:
+  - With your group, spend 10 minutes going over [this anti-example code](https://github.com/poldrack/clean_coding/blob/master/python_example/example1.py), with the following questions in mind:
+    - What are the different parts of the code doing?
+    - What code smells do you sense?
+    - How might you refactor it to address these?
+  - Appoint a group spokesperson who can report back if called upon
 
 
 ### Hour 2: 
 
-- working with neuroimaging data
+- [Working with neuroimaging data](notebooks/WorkingWithNeuroimagingData.ipynb)
   - using jupytext
   - linting with flake8
-  - pair programming exercise
+  - autoformatting with blue
 
 
 ### Hour 3: 
 
-- software testing with PyTest
-    - https://github.com/poldrack/pytest_tutorial
-- Test-driven development exercise
+- [Tutorial: software testing with PyTest](https://github.com/poldrack/pytest_tutorial)
 
 
 ### Hour 4:
 
-- Validating data analysis workflows
-  - Creating synthetic data
-  - Positive and negative controls
+- [Validating data analysis workflows](notebooks/AnalyticValidation.ipynb)
+
 
 
   
