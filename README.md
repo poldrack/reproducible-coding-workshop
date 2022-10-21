@@ -31,6 +31,7 @@ Based on material in:
 ### Hour 2: 
 
 - [Working with neuroimaging data](notebooks/WorkingWithNeuroimagingData.ipynb)
+- [Beyond the notebook](jupytext/BeyondTheNotebook.md)
   - using jupytext
   - linting with flake8
   - autoformatting with blue
