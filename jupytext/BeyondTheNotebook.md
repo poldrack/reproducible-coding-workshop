@@ -179,4 +179,6 @@ jupytext Untitled2.py --to ipynb
 
 ### Using Github copilot
 
-
+#### Copilot labs features
+- explain
+- translate
