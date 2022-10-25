@@ -2,9 +2,9 @@
 
 There are many reasons that Jupyter notebooks are great for prototyping and interactive analysis, but there are also several important limitations:
 
-1.  Jupyter notebooks do not play well with version control.  Any time the notebook is executed, the metadata get changed, and images are also stored as text within the notebook, so finding relevant code differences between versions can be challenging.
+1. Jupyter notebooks do not play well with version control. Any time the notebook is executed, the metadata get changed, and images are also stored as text within the notebook, so finding relevant code differences between versions can be challenging.
 
-2. It's too easy for things to happen out of order, which can cause problems.  [One analysis](https://blog.jetbrains.com/datalore/2020/12/17/we-downloaded-10-000-000-jupyter-notebooks-from-github-this-is-what-we-learned/) of almost ten million Jupyter notebooks from Github showed that 36% of notebooks had a non-linear execution order.
+2. It's too easy for things to happen out of order, which can cause problems. [One analysis](https://blog.jetbrains.com/datalore/2020/12/17/we-downloaded-10-000-000-jupyter-notebooks-from-github-this-is-what-we-learned/) of almost ten million Jupyter notebooks from Github showed that 36% of notebooks had a non-linear execution order.
 
 3. Jupyter does not easily support state-of-the-art coding tools such as linters, code formatting tools, and automated refactoring and coding assistance tools.
 
@@ -14,9 +14,9 @@ There are many reasons that Jupyter notebooks are great for prototyping and inte
 
 ## Using Jupytext
 
-Fortunately there is a tool called [Jupytext](https://jupytext.readthedocs.io/en/latest/) that allows one to easily move between Jupyter notebooks and plain text code.  
+Fortunately there is a tool called [Jupytext](https://jupytext.readthedocs.io/en/latest/) that allows one to easily move between Jupyter notebooks and plain text code.
 
-As an example, look at [Untitled.ipynb] which is a simple notebook containing a couple of code cells and a couple of Markdown cells.  If we look at the content of the file, we will see that it contains much more than the content of the cells:
+As an example, look at [Untitled.ipynb], which is a simple notebook containing a couple of code cells and a couple of Markdown cells. If we look at the content of the file, we will see that it contains much more than the content of the cells:
 
 ```
 {
@@ -153,9 +153,9 @@ for i in range(0,len(list)):
 
 ## Code formatting
 
-Open Untitled.py in Visual Studio Code.  Click on the "Problems" tab, which should list a number of problems with the code formatting and structure.  You may need to first enable the flake8 linter within VSCode; to do this, use Cmd-Shift-P to open the command pallette, and then type "lint" and select "Python: Select linter" and choose *flake8* from the list.  You may also need to select "Python: Enable/disable linting" and set it to *enable*.
+Open Untitled.py in Visual Studio Code. Click on the "Problems" tab, which should list a number of problems with the code formatting and structure. You may need to first enable the flake8 linter within VSCode; to do this, use Cmd-Shift-P to open the command palette, and then type "lint" and select "Python: Select linter" and choose _flake8_ from the list. You may also need to select "Python: Enable/disable linting" and set it to _enable_.
 
-We can fix some of these using an autoformatting tool; we will use [blue](https://pypi.org/project/blue/) which is an adaptation of the popular autoformatter [black](https://black.readthedocs.io/en/stable/).  
+We can fix some of these using an autoformatting tool; we will use [blue](https://pypi.org/project/blue/), which is an adaptation of the popular autoformatter [black](https://black.readthedocs.io/en/stable/).
 
 Run blue on the file using the command:
 
@@ -163,9 +163,9 @@ Run blue on the file using the command:
 blue Untitled.py
 ```
 
-It will change the file in place.  If you reopen and then save the file in VSCode you should see that the formatting problems are no longer present in the list.  
+It will change the file in place. If you reopen and then save the file in VSCode, you should see that the formatting problems are no longer present in the list.
 
-You should also see a couple of problems raised by the *Sourcery* extension (which you will need to install if you haven't already). This extension identifies potential refactorings that can be applied to the code to make it more Pythonic and robust.
+You should also see a couple of problems raised by the _Sourcery_ extension (which you will need to install if you haven't already). This extension identifies potential refactorings that can be applied to the code to make it more Pythonic and robust.
 
 Make the suggested fixes and save them to a new file called Untitled2.py.
 
@@ -180,5 +180,6 @@ jupytext Untitled2.py --to ipynb
 ### Using Github copilot
 
 #### Copilot labs features
+
 - explain
 - translate
