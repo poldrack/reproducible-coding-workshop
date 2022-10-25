@@ -12,3 +12,6 @@ __pycache__/
 .idea
 .vscode
 .vs
+
+# Local solutions directory
+solutions
