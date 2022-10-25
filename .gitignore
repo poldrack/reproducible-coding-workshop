@@ -1,0 +1,14 @@
+# Virtual environment directory
+venv
+.venv
+
+# Cache directories and byte-code files
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints
+
+# Editor directories and files
+.idea
+.vscode
+.vs
